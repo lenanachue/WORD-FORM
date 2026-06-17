@@ -7,7 +7,7 @@
 <title>Word Forms – Cấu Tạo Từ | English Grammar</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Merriweather:wght@400;700&display=swap');
-
+ 
   :root {
     --ocean-deep:    #0a2342;
     --ocean-mid:     #1a4a7a;
@@ -24,11 +24,11 @@
     --text-mid:      #2a4a6b;
     --border:        #cce7f5;
   }
-
+ 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
   html { scroll-behavior: smooth; }
-
+ 
   body {
     font-family: 'Nunito', sans-serif;
     background: var(--sand);
@@ -36,7 +36,7 @@
     min-height: 100vh;
     overflow-x: hidden;
   }
-
+ 
   /* ─── OCEAN HEADER ─── */
   .hero {
     position: relative;
@@ -70,7 +70,7 @@
     0%   { transform: translateY(0) scale(1); opacity:.6; }
     100% { transform: translateY(-300px) scale(1.3); opacity:0; }
   }
-
+ 
   .fish { font-size: 2.2rem; position: absolute; animation: swim 18s linear infinite; }
   .fish:nth-child(1) { top: 35%; animation-delay: 0s; }
   .fish:nth-child(2) { top: 60%; animation-delay: 7s; font-size: 1.6rem; }
@@ -80,7 +80,7 @@
     50%  { left: 110%; transform: scaleX(-1); }
     100% { left: -80px; transform: scaleX(-1); }
   }
-
+ 
   .hero-badge {
     display: inline-block;
     background: rgba(255,255,255,.15);
@@ -102,7 +102,7 @@
     line-height: 1.7;
   }
   .hero-icons { font-size: 2.8rem; letter-spacing: 8px; }
-
+ 
   /* ─── NAV PILLS ─── */
   .nav-wrap { background: var(--white); border-bottom: 2px solid var(--border); position: sticky; top:0; z-index:99; }
   .nav-pills {
@@ -121,10 +121,10 @@
   .nav-pill:hover, .nav-pill.active {
     background: var(--ocean-mid); color: var(--white); border-color: var(--ocean-mid);
   }
-
+ 
   /* ─── LAYOUT ─── */
   .main { max-width: 1000px; margin: 0 auto; padding: 40px 20px 80px; }
-
+ 
   /* ─── SECTION HEADINGS ─── */
   .section-title {
     display: flex; align-items: center; gap: 12px;
@@ -133,13 +133,13 @@
     border-bottom: 3px solid var(--wave);
   }
   .section-title .icon { font-size: 1.8rem; }
-
+ 
   .subsection-title {
     font-size: 1.15rem; font-weight:800; color: var(--ocean-mid);
     margin: 32px 0 14px; padding-left: 14px;
     border-left: 4px solid var(--seagrass);
   }
-
+ 
   /* ─── THEORY CARD ─── */
   .theory-card {
     background: var(--white); border-radius: 16px;
@@ -149,7 +149,7 @@
     transition: box-shadow .2s;
   }
   .theory-card:hover { box-shadow: 0 8px 32px rgba(33,118,174,.13); }
-
+ 
   /* ─── SUFFIX TABLE ─── */
   .suffix-table {
     width: 100%; border-collapse: collapse; margin-top: 8px;
@@ -182,7 +182,7 @@
   .pos-v  { background:#dcfce7; color:#166534; }
   .pos-a  { background:#fef3c7; color:#92400e; }
   .pos-adv{ background:#fce7f3; color:#9d174d; }
-
+ 
   /* ─── EXAMPLE BOX ─── */
   .example-box {
     background: linear-gradient(135deg, var(--seafoam), #e8f6ff);
@@ -194,7 +194,7 @@
   }
   .ex-word { font-weight:800; color: var(--ocean-deep); }
   .ex-arrow { color: var(--wave); font-weight:900; margin: 0 4px; }
-
+ 
   /* ─── RULE GRID ─── */
   .rule-grid {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -213,7 +213,7 @@
     display: inline-block;
   }
   .rule-example { font-size: .85rem; color: var(--text-mid); line-height:1.6; }
-
+ 
   /* ─── QUICK QUIZ ─── */
   .quiz-box {
     background: linear-gradient(135deg, #fff9e6, #fffde0);
@@ -243,7 +243,7 @@
   .feedback.show { display: block; }
   .feedback.ok  { background:#d1fae5; color:#065f46; }
   .feedback.err { background:#fee2e2; color:#991b1b; }
-
+ 
   /* ─── SUMMARY DIAGRAM ─── */
   .diagram-wrap {
     background: var(--white); border-radius: 20px;
@@ -292,7 +292,7 @@
   .diagram-card.verb .suffix-pill { background:#166534; color:#fff; }
   .diagram-card.adj  .suffix-pill { background:#92400e; color:#fff; }
   .diagram-card.adv  .suffix-pill { background:#9d174d; color:#fff; }
-
+ 
   /* ─── CONTEXT RULE TABLE ─── */
   .context-table { width:100%; border-collapse:collapse; font-size:.9rem; }
   .context-table th {
@@ -305,7 +305,7 @@
     font-weight:800; color: var(--seagrass); font-family:monospace;
   }
   .ctx-pos { font-weight:700; color: var(--ocean-mid); }
-
+ 
   /* ─── NOTE BOX ─── */
   .note-box {
     background: linear-gradient(135deg,#e0f2fe,#f0f9ff);
@@ -314,7 +314,7 @@
     font-size: .92rem; color: var(--text-mid); line-height:1.8;
   }
   .note-box strong { color: var(--ocean-deep); }
-
+ 
   /* ─── EXERCISE SECTION ─── */
   .exercise-header {
     background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-light));
@@ -323,7 +323,7 @@
   }
   .exercise-header h3 { font-size: 1.1rem; font-weight:900; }
   .exercise-body { background: var(--white); border: 1.5px solid var(--border); border-top:none; border-radius:0 0 14px 14px; padding: 24px; margin-bottom:28px; }
-
+ 
   .ex-question {
     display: flex; gap: 12px; margin-bottom: 20px;
     align-items: flex-start;
@@ -354,7 +354,7 @@
   .ex-feedback.show { display:block; }
   .ex-feedback.ok  { background:#d1fae5; color:#065f46; }
   .ex-feedback.err { background:#fee2e2; color:#991b1b; }
-
+ 
   /* Score */
   .score-bar {
     background: var(--seafoam); border:1.5px solid var(--border);
@@ -364,7 +364,7 @@
   .score-num { font-size: 1.6rem; font-weight:900; color: var(--ocean-deep); }
   .score-label { font-size: .85rem; color: var(--text-mid); font-weight:700; }
   .score-msg { font-size: .88rem; color: var(--text-mid); }
-
+ 
   /* Check button */
   .check-btn {
     background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-light));
@@ -375,7 +375,7 @@
     box-shadow: 0 4px 14px rgba(33,118,174,.3);
   }
   .check-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(33,118,174,.4); }
-
+ 
   /* ─── FOOTER ─── */
   .footer {
     background: var(--ocean-deep); color: var(--foam);
@@ -383,7 +383,7 @@
     font-size: .88rem;
   }
   .footer-fish { font-size: 2rem; margin-bottom: 8px; }
-
+ 
   /* ─── RESPONSIVE ─── */
   @media (max-width: 600px) {
     .rule-grid { grid-template-columns: 1fr; }
@@ -394,7 +394,7 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- ═══ HERO ═══ -->
 <header class="hero">
   <div class="bubbles">
@@ -410,7 +410,7 @@
     <div class="hero-icons">🐙 🦀 🐚 🐋 🦑</div>
   </div>
 </header>
-
+ 
 <!-- ═══ NAV ═══ -->
 <nav class="nav-wrap">
   <div class="nav-pills">
@@ -424,30 +424,30 @@
     <a class="nav-pill" href="#bai-tap">✏️ Bài Tập</a>
   </div>
 </nav>
-
+ 
 <!-- ═══ MAIN ═══ -->
 <main class="main">
-
+ 
   <!-- ════ PHẦN LÝ THUYẾT ════ -->
   <section id="ly-thuyet">
     <div class="section-title"><span class="icon">📘</span> A. Cách Cấu Tạo Từ</div>
-
+ 
     <div class="note-box">
       <strong>💡 Tại sao phải học Word Forms?</strong><br>
       Tiếng Anh sử dụng <strong>hậu tố (suffix)</strong> và <strong>tiền tố (prefix)</strong> để biến đổi một từ gốc thành nhiều từ loại khác nhau.
       Ví dụ: <strong>beauty</strong> (n) → <strong>beautiful</strong> (adj) → <strong>beautify</strong> (v) → <strong>beautifully</strong> (adv).
       Nắm vững các quy tắc này giúp em nhận ra và sử dụng từ chính xác hơn.
     </div>
-
+ 
     <!-- ════ I. DANH TỪ ════ -->
     <div id="danh-tu" class="subsection-title">I. Cách Cấu Tạo Danh Từ (Noun) 🪸</div>
-
+ 
     <div class="theory-card">
       <p style="font-size:.92rem;color:var(--text-mid);margin-bottom:14px;">
         Danh từ thường được tạo thành bằng cách thêm hậu tố vào sau <strong>động từ</strong> hoặc <strong>tính từ</strong>.
         Dưới đây là những hậu tố danh từ phổ biến nhất:
       </p>
-
+ 
       <div class="subsection-title" style="margin-top:0;font-size:1rem;">Từ động từ → danh từ</div>
       <div class="rule-grid">
         <div class="rule-item">
@@ -509,7 +509,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="subsection-title" style="font-size:1rem;margin-top:22px;">Từ tính từ → danh từ</div>
       <div class="rule-grid">
         <div class="rule-item">
@@ -543,11 +543,11 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- MINI QUIZ 1 -->
     <div class="quiz-box">
       <div class="quiz-title">🎯 Ôn Tập Nhanh – Danh Từ</div>
-
+ 
       <div class="quiz-question" id="q1">
         <p>1. Từ "develop" (v), ta thêm hậu tố nào để tạo danh từ?</p>
         <div class="quiz-options">
@@ -558,7 +558,7 @@
         </div>
         <div class="feedback" id="fb-q1"></div>
       </div>
-
+ 
       <div class="quiz-question" id="q2">
         <p>2. "rich" (adj) → ______ (n) : điền hậu tố phù hợp</p>
         <div class="quiz-options">
@@ -569,7 +569,7 @@
         </div>
         <div class="feedback" id="fb-q2"></div>
       </div>
-
+ 
       <div class="quiz-question" id="q3">
         <p>3. Từ nào là danh từ chỉ NGƯỜI trong nhóm sau?</p>
         <div class="quiz-options">
@@ -581,10 +581,10 @@
         <div class="feedback" id="fb-q3"></div>
       </div>
     </div>
-
+ 
     <!-- ════ II. ĐỘNG TỪ ════ -->
     <div id="dong-tu" class="subsection-title">II. Cách Cấu Tạo Động Từ (Verb) 🐙</div>
-
+ 
     <div class="theory-card">
       <div class="rule-grid">
         <div class="rule-item">
@@ -617,7 +617,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- MINI QUIZ 2 -->
     <div class="quiz-box">
       <div class="quiz-title">🎯 Ôn Tập Nhanh – Động Từ</div>
@@ -642,10 +642,10 @@
         <div class="feedback" id="fb-q5"></div>
       </div>
     </div>
-
+ 
     <!-- ════ III. TÍNH TỪ ════ -->
     <div id="tinh-tu" class="subsection-title">III. Cách Cấu Tạo Tính Từ (Adjective) 🦀</div>
-
+ 
     <div class="theory-card">
       <div class="rule-grid">
         <div class="rule-item">
@@ -720,7 +720,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="note-box" style="margin-top:18px;">
         <strong>⚠️ Lưu ý quan trọng:</strong> -ing và -ed đều có thể là tính từ nhưng nghĩa khác nhau!<br>
         • <strong>-ing</strong>: mô tả bản chất của sự vật/sự việc → The book is <strong>interesting</strong>. (cuốn sách tẻ nhạt)<br>
@@ -728,7 +728,7 @@
         → Tương tự: boring/bored, disappointing/disappointed, exciting/excited...
       </div>
     </div>
-
+ 
     <!-- MINI QUIZ 3 -->
     <div class="quiz-box">
       <div class="quiz-title">🎯 Ôn Tập Nhanh – Tính Từ</div>
@@ -753,10 +753,10 @@
         <div class="feedback" id="fb-q7"></div>
       </div>
     </div>
-
+ 
     <!-- ════ IV. TRẠNG TỪ ════ -->
     <div id="trang-tu" class="subsection-title">IV. Cách Cấu Tạo Trạng Từ (Adverb) 🐚</div>
-
+ 
     <div class="theory-card">
       <div class="rule-item" style="max-width:360px;margin-bottom:16px;">
         <div class="rule-formula">Adj + <span style="color:#9d174d">-ly</span> → Adv</div>
@@ -766,7 +766,7 @@
           careful <span class="ex-arrow">→</span> careful<span style="color:#9d174d">ly</span>
         </div>
       </div>
-
+ 
       <div class="note-box">
         <strong>⚠️ Những ngoại lệ quan trọng phải nhớ:</strong><br>
         🔹 <strong>fast</strong>: vừa là tính từ, vừa là trạng từ → KHÔNG có "fastly"<br>
@@ -775,10 +775,10 @@
         🔹 <strong>-ly</strong> có thể là tính từ: <em>friend<strong>ly</strong></em> (adj), <em>like<strong>ly</strong></em> (adj)
       </div>
     </div>
-
+ 
     <!-- ════ V. TRẬT TỰ TỪ ════ -->
     <div id="trat-tu-tu" class="section-title" style="margin-top:48px;"><span class="icon">🧭</span> B. Trật Tự Từ – Nhận Biết Từ Loại</div>
-
+ 
     <div class="theory-card">
       <p style="font-size:.92rem;color:var(--text-mid);margin-bottom:14px;">
         Muốn điền đúng từ loại, hãy nhìn vào <strong>từ xung quanh vị trí trống</strong> để xác định cần Danh từ, Động từ, Tính từ hay Trạng từ.
@@ -850,7 +850,7 @@
           </tr>
         </tbody>
       </table>
-
+ 
       <!-- MINI QUIZ trật tự từ -->
       <div class="quiz-box" style="margin-top:20px;">
         <div class="quiz-title">🎯 Ôn Tập – Trật Tự Từ</div>
@@ -877,11 +877,11 @@
       </div>
     </div>
   </section>
-
+ 
   <!-- ════ SƠ ĐỒ TỔNG HỢP ════ -->
   <section id="so-do">
     <div class="section-title"><span class="icon">📊</span> Sơ Đồ Tổng Hợp – Dễ Ghi Nhớ</div>
-
+ 
     <div class="diagram-wrap">
       <div class="diagram-center">
         <div style="margin-bottom:10px;font-size:.85rem;color:var(--text-mid);font-weight:700;">TỪ GỐC</div>
@@ -889,7 +889,7 @@
         <div style="margin-top:18px;font-size:1.5rem;">⬇️⬇️⬇️⬇️</div>
         <div style="font-size:.82rem;color:var(--text-mid);margin-top:6px;font-weight:600;">Thêm hậu tố → tạo ra 4 từ loại</div>
       </div>
-
+ 
       <div class="diagram-grid">
         <!-- NOUN -->
         <div class="diagram-card noun">
@@ -906,7 +906,7 @@
             Vị trí: sau a/an/the, my/your/his..., giới từ, some/many/much
           </div>
         </div>
-
+ 
         <!-- VERB -->
         <div class="diagram-card verb">
           <div class="diagram-card-label">🐙 Động từ (V)</div>
@@ -917,7 +917,7 @@
             Ví dụ: widen, enrich, socialize, beautify
           </div>
         </div>
-
+ 
         <!-- ADJ -->
         <div class="diagram-card adj">
           <div class="diagram-card-label">🦀 Tính từ (Adj)</div>
@@ -931,7 +931,7 @@
             Vị trí: sau to be/look/seem/feel, trước danh từ
           </div>
         </div>
-
+ 
         <!-- ADV -->
         <div class="diagram-card adv">
           <div class="diagram-card-label">🐚 Trạng từ (Adv)</div>
@@ -945,7 +945,7 @@
           </div>
         </div>
       </div>
-
+ 
       <!-- Context clues summary -->
       <div style="margin-top:28px;padding:20px;background:var(--seafoam);border-radius:14px;">
         <div style="font-size:1rem;font-weight:900;color:var(--ocean-deep);margin-bottom:12px;text-align:center;">
@@ -983,11 +983,11 @@
       </div>
     </div>
   </section>
-
+ 
   <!-- ════ BÀI TẬP ════ -->
   <section id="bai-tap">
     <div class="section-title"><span class="icon">✏️</span> Bài Tập Luyện Tập</div>
-
+ 
     <!-- EXERCISE 1 -->
     <div>
       <div class="exercise-header">
@@ -998,7 +998,7 @@
         </div>
       </div>
       <div class="exercise-body">
-
+ 
         <div class="ex-question">
           <div class="ex-num">1</div>
           <div class="ex-content">
@@ -1012,7 +1012,7 @@
             <div class="ex-feedback" id="ex1-1"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">2</div>
           <div class="ex-content">
@@ -1026,7 +1026,7 @@
             <div class="ex-feedback" id="ex1-2"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">3</div>
           <div class="ex-content">
@@ -1040,7 +1040,7 @@
             <div class="ex-feedback" id="ex1-3"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">4</div>
           <div class="ex-content">
@@ -1054,7 +1054,7 @@
             <div class="ex-feedback" id="ex1-4"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">5</div>
           <div class="ex-content">
@@ -1068,7 +1068,7 @@
             <div class="ex-feedback" id="ex1-5"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">6</div>
           <div class="ex-content">
@@ -1082,7 +1082,7 @@
             <div class="ex-feedback" id="ex1-6"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">7</div>
           <div class="ex-content">
@@ -1096,7 +1096,7 @@
             <div class="ex-feedback" id="ex1-7"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">8</div>
           <div class="ex-content">
@@ -1110,7 +1110,7 @@
             <div class="ex-feedback" id="ex1-8"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">9</div>
           <div class="ex-content">
@@ -1124,7 +1124,7 @@
             <div class="ex-feedback" id="ex1-9"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">10</div>
           <div class="ex-content">
@@ -1138,7 +1138,7 @@
             <div class="ex-feedback" id="ex1-10"></div>
           </div>
         </div>
-
+ 
         <div class="score-bar" id="score1-bar" style="display:none">
           <div>
             <div class="score-num" id="score1-num">0/10</div>
@@ -1148,7 +1148,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- EXERCISE 2 -->
     <div>
       <div class="exercise-header">
@@ -1159,7 +1159,7 @@
         </div>
       </div>
       <div class="exercise-body">
-
+ 
         <div class="ex-question">
           <div class="ex-num">1</div>
           <div class="ex-content">
@@ -1173,7 +1173,7 @@
             <div class="ex-feedback" id="ex2-1"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">2</div>
           <div class="ex-content">
@@ -1187,7 +1187,7 @@
             <div class="ex-feedback" id="ex2-2"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">3</div>
           <div class="ex-content">
@@ -1201,7 +1201,7 @@
             <div class="ex-feedback" id="ex2-3"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">4</div>
           <div class="ex-content">
@@ -1215,7 +1215,7 @@
             <div class="ex-feedback" id="ex2-4"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">5</div>
           <div class="ex-content">
@@ -1229,7 +1229,7 @@
             <div class="ex-feedback" id="ex2-5"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">6</div>
           <div class="ex-content">
@@ -1243,7 +1243,7 @@
             <div class="ex-feedback" id="ex2-6"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">7</div>
           <div class="ex-content">
@@ -1257,7 +1257,7 @@
             <div class="ex-feedback" id="ex2-7"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">8</div>
           <div class="ex-content">
@@ -1271,7 +1271,7 @@
             <div class="ex-feedback" id="ex2-8"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">9</div>
           <div class="ex-content">
@@ -1285,7 +1285,7 @@
             <div class="ex-feedback" id="ex2-9"></div>
           </div>
         </div>
-
+ 
         <div class="ex-question">
           <div class="ex-num">10</div>
           <div class="ex-content">
@@ -1299,7 +1299,7 @@
             <div class="ex-feedback" id="ex2-10"></div>
           </div>
         </div>
-
+ 
         <div class="score-bar" id="score2-bar" style="display:none">
           <div>
             <div class="score-num" id="score2-num">0/10</div>
@@ -1309,7 +1309,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- TOTAL SCORE -->
     <div style="background:linear-gradient(135deg,var(--ocean-mid),var(--ocean-light));border-radius:20px;padding:28px 24px;text-align:center;color:#fff;margin-top:16px;" id="total-score-box" style="display:none">
       <div style="font-size:2.2rem;margin-bottom:6px;" id="total-emoji">🏆</div>
@@ -1318,16 +1318,16 @@
       <div style="margin-top:10px;font-size:1rem;font-weight:700;opacity:.9;" id="total-msg"></div>
     </div>
   </section>
-
+ 
 </main>
-
+ 
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer-fish">🐠 🐙 🦀 🐚 🐋</div>
   <div style="font-weight:700;margin-bottom:6px;">Word Forms – Cấu Tạo Từ</div>
   <div style="opacity:.7;">Chuyên Đề 14 · Tiếng Anh Cấp 2 & Cấp 3</div>
 </footer>
-
+ 
 <script>
   // ──────── MINI QUIZ ────────
   function checkQuiz(btn, qid, correct, explanation) {
@@ -1353,19 +1353,19 @@
       });
     }
   }
-
+ 
   // ──────── EXERCISES ────────
   const scores = { ex1: 0, ex2: 0 };
   const answered = {};
-
+ 
   function checkEx(btn, id, correct, explanation) {
     if (answered[id]) return;
     answered[id] = true;
-
+ 
     const content = btn.closest('.ex-content');
     const allBtns = content.querySelectorAll('.ex-opt');
     allBtns.forEach(b => b.disabled = true);
-
+ 
     const fb = document.getElementById(id);
     if (correct) {
       btn.classList.add('correct');
@@ -1385,11 +1385,11 @@
         }
       });
     }
-
+ 
     // Check if exercise complete
     updateScore(id.startsWith('ex1') ? 'ex1' : 'ex2');
   }
-
+ 
   function updateScore(exKey) {
     const prefix = exKey + '-';
     const total = 10;
@@ -1408,7 +1408,7 @@
       else if (n >= 8)   scoreMsg.textContent = '⭐ Rất tốt! Tiếp tục phát huy nhé!';
       else if (n >= 6)   scoreMsg.textContent = '👍 Khá! Ôn lại phần lý thuyết để cải thiện thêm.';
       else               scoreMsg.textContent = '💪 Cố gắng hơn! Xem lại sơ đồ tổng hợp và thử lại.';
-
+ 
       // update total
       const ex1Done = Array.from({length:10},(_,i)=>answered['ex1-'+(i+1)]).every(Boolean);
       const ex2Done = Array.from({length:10},(_,i)=>answered['ex2-'+(i+1)]).every(Boolean);
@@ -1427,7 +1427,7 @@
       }
     }
   }
-
+ 
   // ──────── SMOOTH SCROLL NAV ────────
   document.querySelectorAll('.nav-pill').forEach(pill => {
     pill.addEventListener('click', function(e) {
@@ -1435,7 +1435,7 @@
       this.classList.add('active');
     });
   });
-
+ 
   // Active nav on scroll
   const sections = document.querySelectorAll('section[id], div[id]');
   window.addEventListener('scroll', () => {
